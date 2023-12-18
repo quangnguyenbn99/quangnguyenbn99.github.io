@@ -8,9 +8,9 @@ Change index.html for the interface.
 
 # pull/push
 
-git clone https://github.com/quangnguyenbn99/quangnguyenbn99.github.io.git
-git init
-git add --all
-git remote add origin https://github.com/quangnguyenbn99/quangnguyenbn99.github.io.git
-git push -f origin main
+git clone https://github.com/quangnguyenbn99/quangnguyenbn99.github.io.git </br>
+git init </br>
+git add --all </br>
+git remote add origin https://github.com/quangnguyenbn99/quangnguyenbn99.github.io.git </br>
+git push -f origin main </br>
 
