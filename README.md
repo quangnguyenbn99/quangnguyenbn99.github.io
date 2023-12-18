@@ -1,31 +1,16 @@
-# Junmo Kang's Website (based on Martin Saveski's template)
+# Quangnguyen's Website (based on Martin Saveski's template)
 
 ## Updates guide
 Change one of the files in `_data`, unless you are changing the look of the website.
 
-Test changes with:
-```
-jekyll serve
-```
+Change _data for publications and info.
+Change index.html for the interface.
 
-Push to the ML web directory:
-```
-rm -rf public_html
-mkdir public_html
-```
-```
-./__deploy.sh
-```
+# pull/push
 
-More info on the [Media Lab wiki](http://wiki.media.mit.edu/view/Necsys/WebPagePersonal).
+git clone https://github.com/quangnguyenbn99/quangnguyenbn99.github.io.git
+git init
+git add --all
+git remote add origin https://github.com/quangnguyenbn99/quangnguyenbn99.github.io.git
+git push -f origin main
 
-
-## External Libraries
-- Framework: [Jekyll](http://jekyllrb.com/)
-- CSS
-  - [Skeleton](getskeleton.com)
-  - Tabs: [Skeleton Tabs](https://github.com/nathancahill/skeleton-tabs)
-  - Experience: [Timeline](https://codepen.io/NilsWe/pen/FemfK)
-  - Icons: [Font Awesome](http://fontawesome.io/)
-- JS
-  - [Jquery (3.1.1)](https://jquery.com/)
