@@ -44,7 +44,7 @@ novel perspectives on multi-level information integration"
     selected: y
 
   - title: "Colorectal segmentation using multiple encoder-decoder network in colonoscopy images"
-    # image: "/assets/publications/2022_exploiting_numerical-contextual/image.png"
+    image: "/assets/logos/AIKE_logo.png"
     authors: "<b>Ngoc-Quang Nguyen</b>; Sang-Woong Lee"
     venue: "AIKE, Laguna Hills, 2018"
     paper_pdf: "https://ieeexplore.ieee.org/document/8527480"
