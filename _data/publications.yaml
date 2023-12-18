@@ -1,7 +1,7 @@
 papers:
   - title: "MulinforCPI: enhancing precision of compound-protein interaction prediction through
 novel perspectives on multi-level information integration"
-    image: "/assets/publications/2023_self-specialization/figure1.png"
+    # image: "/assets/publications/2023_self-specialization/figure1.png"
     authors: "<b>Ngoc-Quang Nguyen</b>; Sejeong Park; Mogan Gim; Jaewoo Kang"
     venue: "Briefings in Bioinformatics, 2023"
     paper_pdf: "https://doi.org/10.1093/bib/bbad484"
@@ -9,7 +9,7 @@ novel perspectives on multi-level information integration"
     selected: y
 
   - title: "PerceiverCPI: A nested cross-attention network for compound-protein interaction prediction"
-    image: "/assets/publications/2023_schema-to-json/schema-to-json.png"
+    # image: "/assets/publications/2023_schema-to-json/schema-to-json.png"
     authors: "<b>Ngoc-Quang Nguyen<b>; Gwanghoon Jang; Hajung Kim; Jaewoo Kang"
     venue: "Bioinformatics, 2022"
     paper_pdf: "https://academic.oup.com/bioinformatics/article/39/1/btac731/6842322"
@@ -17,7 +17,7 @@ novel perspectives on multi-level information integration"
     selected: y
 
   - title: "Contour-aware Polyp Segmentation in Colonoscopy Images using Detailed Upsampling Encoder-Decoder Networks"
-    image: "/assets/publications/2023_retrieval_misinfo/image.png"
+    # image: "/assets/publications/2023_retrieval_misinfo/image.png"
     authors: "<b>Ngoc-Quang Nguyen<b>; Duc My Vo; Sang-Woong Lee"
     venue: "IEEE Access, 2020"
     paper_pdf: "https://ieeexplore.ieee.org/document/9096362"
@@ -36,7 +36,7 @@ novel perspectives on multi-level information integration"
     selected: y
 
   - title: "Classification of breast cancer histology images using incremental boosting convolution networks"
-    image: "/assets/publications/2022_git/GIT.png"
+    # image: "/assets/publications/2022_git/GIT.png"
     authors: "Duc My Vo; <b>Ngoc-Quang Nguyen<b>; Sang-Woong Lee"
     venue: "Information Sciences, 2018"
     paper_pdf: "https://www.sciencedirect.com/science/article/pii/S0020025518310466"
@@ -44,9 +44,9 @@ novel perspectives on multi-level information integration"
     selected: y
 
   - title: "Colorectal segmentation using multiple encoder-decoder network in colonoscopy images"
-    image: "/assets/publications/2022_exploiting_numerical-contextual/image.png"
+    # image: "/assets/publications/2022_exploiting_numerical-contextual/image.png"
     authors: "<b>Ngoc-Quang Nguyen<b>; Sang-Woong Lee"
     venue: "AIKE, Laguna Hills, 2018"
     paper_pdf: "https://ieeexplore.ieee.org/document/8527480"
-    bibtex: "/assets/publications/2022_exploiting_numerical-contextual/bibtex.txt"
+    # bibtex: "/assets/publications/2022_exploiting_numerical-contextual/bibtex.txt"
     selected: y
