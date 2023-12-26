@@ -15,3 +15,4 @@ git commit -m "upload_codes" </br>
 git remote add origin https://github.com/quangnguyenbn99/quangnguyenbn99.github.io.git </br>
 git push -f origin main </br>
 
+[Homepage](https://quangnguyenbn99.github.io/)
