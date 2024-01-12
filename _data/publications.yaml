@@ -41,9 +41,9 @@ novel perspectives on multi-level information integration"
     venue: "Information Sciences, 2018"
     paper_pdf: "https://www.sciencedirect.com/science/article/pii/S0020025518310466"
     # bibtex: "/assets/publications/2022_git/bibtex.txt"
-    selected: y
+    selected: n
 
-  - title: "Colorectal segmentation using multiple encoder-decoder network in colonoscopy images"
+  - title: "Colorectal segmentation using multiple encoder-decoder networks in colonoscopy images"
     image: "/assets/logos/AIKE_logo.png"
     authors: "<b>Ngoc-Quang Nguyen</b>; Sang-Woong Lee"
     venue: "AIKE, Laguna Hills, 2018"
