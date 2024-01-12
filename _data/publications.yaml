@@ -22,7 +22,7 @@ novel perspectives on multi-level information integration"
     venue: "IEEE Access, 2020"
     paper_pdf: "https://ieeexplore.ieee.org/document/9096362"
 #    bibtex: "/assets/publications/2023_retrieval_misinfo/bibtex.txt"
-    selected: y
+    selected: n
 
   - title: "Robust Boundary Segmentation in Medical Images Using a Consecutive Deep Encoder-Decoder Network"
     image: "/assets/logos/ieeeaccess_logo.png"
@@ -33,7 +33,7 @@ novel perspectives on multi-level information integration"
     # slides: "/assets/publications/2023_dist_or_ann/slide.pdf"
     # code: "https://github.com/jm-kang/Distill-or-Annotate"
     # bibtex: "/assets/publications/2023_dist_or_ann/bibtex.txt"
-    selected: y
+    selected: n
 
   - title: "Classification of breast cancer histology images using incremental boosting convolution networks"
     image: "/assets/logos/informationscicencs_logo.jpg"
@@ -49,4 +49,4 @@ novel perspectives on multi-level information integration"
     venue: "AIKE, Laguna Hills, 2018"
     paper_pdf: "https://ieeexplore.ieee.org/document/8527480"
     # bibtex: "/assets/publications/2022_exploiting_numerical-contextual/bibtex.txt"
-    selected: y
+    selected: n
