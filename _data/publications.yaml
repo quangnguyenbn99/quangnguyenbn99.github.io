@@ -5,6 +5,7 @@ novel perspectives on multi-level information integration"
     authors: "<b>Ngoc-Quang Nguyen</b>; Sejeong Park; Mogan Gim; Jaewoo Kang"
     venue: "Briefings in Bioinformatics, 2023"
     paper_pdf: "https://doi.org/10.1093/bib/bbad484"
+    code: "https://github.com/dmis-lab/MulinforCPI"
 #    bibtex: "/assets/publications/2023_self-specialization/bibtex.txt"
     selected: y
 
@@ -13,6 +14,7 @@ novel perspectives on multi-level information integration"
     authors: "<b>Ngoc-Quang Nguyen</b>; Gwanghoon Jang; Hajung Kim; Jaewoo Kang"
     venue: "Bioinformatics, 2022"
     paper_pdf: "https://academic.oup.com/bioinformatics/article/39/1/btac731/6842322"
+    code: "https://github.com/dmis-lab/PerceiverCPI"
 #    bibtex: "/assets/publications/2023_schema-to-json/bibtex.txt"
     selected: y
 
@@ -31,7 +33,7 @@ novel perspectives on multi-level information integration"
     paper_pdf: "https://ieeexplore.ieee.org/document/8664145"
     # poster: "/assets/publications/2023_dist_or_ann/poster.pdf"
     # slides: "/assets/publications/2023_dist_or_ann/slide.pdf"
-    # code: "https://github.com/jm-kang/Distill-or-Annotate"
+    code: "https://github.com/quangnguyenbn99/MedicalSegmentation"
     # bibtex: "/assets/publications/2023_dist_or_ann/bibtex.txt"
     selected: n
 
