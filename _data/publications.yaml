@@ -15,6 +15,7 @@ novel perspectives on multi-level information integration"
     venue: "Bioinformatics, 2022"
     paper_pdf: "https://academic.oup.com/bioinformatics/article/39/1/btac731/6842322"
     code: "https://github.com/dmis-lab/PerceiverCPI"
+    slides: "/assets/pub_ppt/PerceiverCPI.pdf"
 #    bibtex: "/assets/publications/2023_schema-to-json/bibtex.txt"
     selected: y
 
