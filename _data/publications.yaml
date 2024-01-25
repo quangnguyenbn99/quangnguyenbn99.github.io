@@ -6,6 +6,7 @@ novel perspectives on multi-level information integration"
     venue: "Briefings in Bioinformatics, 2023"
     paper_pdf: "https://doi.org/10.1093/bib/bbad484"
     code: "https://github.com/dmis-lab/MulinforCPI"
+    slides: "/assets/pub_ppt/MulinforCPI.pdf"
 #    bibtex: "/assets/publications/2023_self-specialization/bibtex.txt"
     selected: y
 
