@@ -52,3 +52,10 @@ novel perspectives on multi-level information integration"
     paper_pdf: "https://ieeexplore.ieee.org/document/8527480"
     # bibtex: "/assets/publications/2022_exploiting_numerical-contextual/bibtex.txt"
     selected: n
+  - title: "ISIC 2017 skin lesion segmentation using deep encoder-decoder network"
+    image: "/assets/logos/preprint_logo.png"
+    authors: "<b>Ngoc-Quang Nguyen</b>"
+    venue: "Preprint ISIC 2017 challenge, 2018"
+    paper_pdf: "https://arxiv.org/abs/1807.09083"
+    # bibtex: "/assets/publications/2022_exploiting_numerical-contextual/bibtex.txt"
+    selected: n
