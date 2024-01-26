@@ -34,10 +34,10 @@ novel perspectives on multi-level information integration"
     venue: "IEEE Access, 2019"
     paper_pdf: "https://ieeexplore.ieee.org/document/8664145"
     # poster: "/assets/publications/2023_dist_or_ann/poster.pdf"
-    # slides: "/assets/publications/2023_dist_or_ann/slide.pdf"
+    slides: "/assets/pub_ppt/Contour-Aware.pdf"
     code: "https://github.com/quangnguyenbn99/MedicalSegmentation"
     # bibtex: "/assets/publications/2023_dist_or_ann/bibtex.txt"
-    selected: n
+    selected: y
 
   - title: "Classification of breast cancer histology images using incremental boosting convolution networks"
     image: "/assets/logos/informationscicencs_logo.jpg"
