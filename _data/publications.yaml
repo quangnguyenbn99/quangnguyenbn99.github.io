@@ -7,7 +7,7 @@ papers:
     # code: "https://github.com/dmis-lab/MulinforCPI"
     # slides: "/assets/pub_ppt/MulinforCPI.pdf"
 #    bibtex: "/assets/publications/2023_self-specialization/bibtex.txt"
-    selected: y
+    selected: n
   - title: "MulinforCPI: enhancing precision of compound-protein interaction prediction through
 novel perspectives on multi-level information integration"
     image: "/assets/logos/bib_logo.png"
@@ -46,7 +46,7 @@ novel perspectives on multi-level information integration"
     slides: "/assets/pub_ppt/Contour-Aware.pdf"
     code: "https://github.com/quangnguyenbn99/MedicalSegmentation"
     # bibtex: "/assets/publications/2023_dist_or_ann/bibtex.txt"
-    selected: y
+    selected: n
 
   - title: "Classification of breast cancer histology images using incremental boosting convolution networks"
     image: "/assets/logos/informationscicencs_logo.jpg"
@@ -54,7 +54,7 @@ novel perspectives on multi-level information integration"
     venue: "Information Sciences, 2018"
     paper_pdf: "https://www.sciencedirect.com/science/article/pii/S0020025518310466"
     # bibtex: "/assets/publications/2022_git/bibtex.txt"
-    selected: n
+    selected: y
 
   - title: "Colorectal segmentation using multiple encoder-decoder networks in colonoscopy images"
     image: "/assets/logos/AIKE_logo.png"
