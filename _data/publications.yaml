@@ -46,7 +46,7 @@ novel perspectives on multi-level information integration"
     slides: "/assets/pub_ppt/Contour-Aware.pdf"
     code: "https://github.com/quangnguyenbn99/MedicalSegmentation"
     # bibtex: "/assets/publications/2023_dist_or_ann/bibtex.txt"
-    selected: n
+    selected: y
 
   - title: "Classification of breast cancer histology images using incremental boosting convolution networks"
     image: "/assets/logos/informationscicencs_logo.jpg"
