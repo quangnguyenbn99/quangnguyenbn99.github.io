@@ -2,14 +2,13 @@ papers:
   - title: "MolPLA: A Molecular Pretraining Framework for Learning Cores, R-Groups and their Linker Joints"
     image: "/assets/logos/ismb_logo.jpg"
     authors: "Mogan Gim; Jueon Park; Soyon Park; Sanghoon Lee; Seungheun Baek; Junhyun Lee;<b>Ngoc-Quang Nguyen</b>; Jaewoo Kang"
-    venue: "Preprint ISMB, 2024"
+    venue: "ISMB (Intelligent Systems for Molecular Biology), 2024"
     paper_pdf: "https://arxiv.org/abs/2401.16771"
     # code: "https://github.com/dmis-lab/MulinforCPI"
     # slides: "/assets/pub_ppt/MulinforCPI.pdf"
 #    bibtex: "/assets/publications/2023_self-specialization/bibtex.txt"
     selected: n
-  - title: "MulinforCPI: enhancing precision of compound-protein interaction prediction through
-novel perspectives on multi-level information integration"
+  - title: "MulinforCPI: enhancing precision of compound-protein interaction prediction through novel perspectives on multi-level information integration"
     image: "/assets/logos/bib_logo.png"
     authors: "<b>Ngoc-Quang Nguyen</b>; Sejeong Park; Mogan Gim; Jaewoo Kang"
     venue: "Briefings in Bioinformatics, 2023"
