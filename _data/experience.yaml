@@ -1,7 +1,12 @@
 experiences:
+- place: "AIGEN Sciences"
+  time: "Feb 2025 – Present"
+  title: "AI research scientist"
+  subtitle: "AI team, AIGEN Sciences (https://www.aigensciences.com/)"
+  category: "work"
 
 - place: "Korea University"
-  time: "Sep 2020 – Present"
+  time: "Sep 2020 – Aug 2024"
   title: "Ph.D, Computer Science and Engineering"
   subtitle: "Advisor: Jaewoo Kang, DMIS Lab (https://dmis.korea.ac.kr/)"
   category: "school"
