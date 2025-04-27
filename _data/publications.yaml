@@ -1,4 +1,13 @@
 papers:
+- title: "EquiCPI: SE(3)-Equivariant Geometric Deep Learning for Structure-Aware Prediction of Compound-Protein Interactions"
+    image: "/assets/logos/preprint.jpg"
+    authors: "<b>Ngoc-Quang Nguyen</b>; Jaewoo Kang"
+    #venue: "ISMB (Intelligent Systems for Molecular Biology), 2024"
+    paper_pdf: "https://arxiv.org/pdf/2504.04654"
+    code: "https://github.com/dmis-lab/EquiCPI"
+    # slides: "/assets/pub_ppt/MulinforCPI.pdf"
+#    bibtex: "/assets/publications/2023_self-specialization/bibtex.txt"
+    selected: n
   - title: "MolPLA: A Molecular Pretraining Framework for Learning Cores, R-Groups and their Linker Joints"
     image: "/assets/logos/ismb_logo.jpg"
     authors: "Mogan Gim; Jueon Park; Soyon Park; Sanghoon Lee; Seungheun Baek; Junhyun Lee;<b>Ngoc-Quang Nguyen</b>; Jaewoo Kang"
