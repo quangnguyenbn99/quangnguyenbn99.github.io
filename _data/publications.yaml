@@ -1,5 +1,5 @@
 papers:
-- title: "EquiCPI: SE(3)-Equivariant Geometric Deep Learning for Structure-Aware Prediction of Compound-Protein Interactions"
+  - title: "EquiCPI: SE(3)-Equivariant Geometric Deep Learning for Structure-Aware Prediction of Compound-Protein Interactions"
     image: "/assets/logos/preprint.jpg"
     authors: "<b>Ngoc-Quang Nguyen</b>; Jaewoo Kang"
     venue: "Preprint, 2025"
