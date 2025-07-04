@@ -1,13 +1,13 @@
 papers:
   - title: "EquiCPI: SE(3)-Equivariant Geometric Deep Learning for Structure-Aware Prediction of Compound-Protein Interactions"
-    image: "/assets/logos/preprint.jpg"
+    image: "/assets/logos/JCIMcover.png"
     authors: "<b>Ngoc-Quang Nguyen</b>; Jaewoo Kang"
-    venue: "Preprint, 2025"
-    paper_pdf: "https://arxiv.org/pdf/2504.04654"
+    venue: "Journal of Chemical Information and Modeling(JCIM), 2025"
+    paper_pdf: "https://pubs.acs.org/doi/10.1021/acs.jcim.5c00773"
     code: "https://github.com/dmis-lab/EquiCPI"
     # slides: "/assets/pub_ppt/MulinforCPI.pdf"
 #    bibtex: "/assets/publications/2023_self-specialization/bibtex.txt"
-    selected: n
+    selected: y
   - title: "MolPLA: A Molecular Pretraining Framework for Learning Cores, R-Groups and their Linker Joints"
     image: "/assets/logos/ismb_logo.jpg"
     authors: "Mogan Gim; Jueon Park; Soyon Park; Sanghoon Lee; Seungheun Baek; Junhyun Lee;<b>Ngoc-Quang Nguyen</b>; Jaewoo Kang"
