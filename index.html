@@ -370,3 +370,28 @@ layout: default
   <p><center>Thank you for crossing my path<center></p>
   
 </div>
+
+<script>
+  document.addEventListener("click", function (e) {
+    const btn = e.target.closest(".tab-nav .button");
+    if (!btn) return;
+
+    const ref = btn.getAttribute("data-ref");
+    if (!ref) return;
+
+    const tabNav = btn.closest(".tab-nav");
+    const tabContent = tabNav.parentElement.querySelector(".tab-content");
+    if (!tabContent) return;
+
+    tabNav.querySelectorAll(".button").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+
+    tabContent.querySelectorAll(".tab-pane").forEach(p => p.classList.remove("active"));
+    const pane = tabContent.querySelector(ref);
+    if (pane) pane.classList.add("active");
+  });
+</script>
+
+</body>
+</html>
+
