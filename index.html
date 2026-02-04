@@ -355,25 +355,38 @@ layout: default
   <p><center>Thank you for crossing my path<center></p>
   
 </div>
+<style>
+  .news-list li.news-hidden {
+    display: none;
+  }
+</style>
 
+    
 <script>
-  document.addEventListener("click", function (e) {
-    const btn = e.target.closest(".tab-nav .button");
-    if (!btn) return;
+  document.addEventListener("DOMContentLoaded", function () {
+    const MAX_VISIBLE = 5; // number of news items shown initially
+    const newsList = document.querySelector(".news-list");
+    const toggleBtn = document.getElementById("toggle-news");
 
-    const ref = btn.getAttribute("data-ref");
-    if (!ref) return;
+    if (!newsList || !toggleBtn) return;
 
-    const tabNav = btn.closest(".tab-nav");
-    const tabContent = tabNav.parentElement.querySelector(".tab-content");
-    if (!tabContent) return;
+    const items = Array.from(newsList.querySelectorAll("li"));
 
-    tabNav.querySelectorAll(".button").forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
+    // Hide older items
+    items.slice(MAX_VISIBLE).forEach(li => li.classList.add("news-hidden"));
 
-    tabContent.querySelectorAll(".tab-pane").forEach(p => p.classList.remove("active"));
-    const pane = tabContent.querySelector(ref);
-    if (pane) pane.classList.add("active");
+    let expanded = false;
+
+    toggleBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      expanded = !expanded;
+
+      items.slice(MAX_VISIBLE).forEach(li =>
+        li.classList.toggle("news-hidden", !expanded)
+      );
+
+      toggleBtn.textContent = expanded ? "See less..." : "See more...";
+    });
   });
 </script>
 
