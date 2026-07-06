@@ -299,23 +299,20 @@ layout: default
   <h4>Boreout Reads</h4>
 
   <ul class="news-list">
+ 
     <li>
+      <a href="{{ 'assets/readings/activity_creates_creativity.pdf' | prepend: site.baseurl }}" target="_blank">Vận động tạo sáng tạo (Vietnamese)</a> || 
       <a href="{{ 'assets/readings/activity_creates_creativity_en.pdf' | prepend: site.baseurl }}" target="_blank">Does Physical Activity Foster Creativity? (English)</a>
     </li>
+ 
     <li>
-      <a href="{{ 'assets/readings/activity_creates_creativity.pdf' | prepend: site.baseurl }}" target="_blank">Vận động tạo sáng tạo (Vietnamese)</a>
-    </li>
-    <li>
+      <a href="{{ 'assets/readings/Reason_to_boreout.pdf' | prepend: site.baseurl }}" target="_blank">Điều gì dẫn đến ngán việc? (Vietnamese)</a> ||
       <a href="{{ 'assets/readings/Reason_to_boreout_en.pdf' | prepend: site.baseurl }}" target="_blank">What Causes Boreout? (English)</a>
     </li>
+ 
     <li>
-      <a href="{{ 'assets/readings/Reason_to_boreout.pdf' | prepend: site.baseurl }}" target="_blank">Điều gì dẫn đến ngán việc? (Vietnamese)</a>
-    </li>
-    <li>
+      <a href="{{ 'assets/readings/Boreout.pdf' | prepend: site.baseurl }}" target="_blank">Ngán Việc (Vietnamese)</a> ||
       <a href="{{ 'assets/readings/Boreout_eng.pdf' | prepend: site.baseurl }}" target="_blank">What is Boreout? (English)</a>
-    </li>
-    <li>
-      <a href="{{ 'assets/readings/Boreout.pdf' | prepend: site.baseurl }}" target="_blank">Ngán Việc (Vietnamese)</a>
     </li>
   </ul>
 
@@ -352,28 +349,42 @@ layout: default
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const MAX_VISIBLE = 5; // number of news items shown initially
-    const newsList = document.querySelector(".news-list");
-    const toggleBtn = document.getElementById("toggle-news");
+    const MAX_VISIBLE = 5; 
 
-    if (!newsList || !toggleBtn) return;
+    // Reusable function to apply the limit and toggle logic
+    function initializeToggleList(listSelector, buttonId) {
+      const targetList = document.querySelector(listSelector);
+      const toggleBtn = document.getElementById(buttonId);
 
-    const items = Array.from(newsList.querySelectorAll("li"));
+      if (!targetList || !toggleBtn) return;
 
-    // Hide older items
-    items.slice(MAX_VISIBLE).forEach(li => li.classList.add("news-hidden"));
+      const items = Array.from(targetList.querySelectorAll("li"));
 
-    let expanded = false;
+      // If there are fewer or equal items than the max, hide the button entirely
+      if (items.length <= MAX_VISIBLE) {
+        toggleBtn.style.display = "none";
+        return;
+      }
 
-    toggleBtn.addEventListener("click", function (e) {
-      e.preventDefault();
-      expanded = !expanded;
+      // Hide older items initially
+      items.slice(MAX_VISIBLE).forEach(li => li.classList.add("news-hidden"));
 
-      items.slice(MAX_VISIBLE).forEach(li =>
-        li.classList.toggle("news-hidden", !expanded)
-      );
+      let expanded = false;
 
-      toggleBtn.textContent = expanded ? "See less..." : "See more...";
-    });
+      toggleBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        expanded = !expanded;
+
+        items.slice(MAX_VISIBLE).forEach(li =>
+          li.classList.toggle("news-hidden", !expanded)
+        );
+
+        toggleBtn.textContent = expanded ? "See less..." : "See more...";
+      });
+    }
+
+    // Initialize both sections independently
+    initializeToggleList(".news-list", "toggle-news");
+    initializeToggleList(".boreout-list", "toggle-boreout");
   });
 </script>
