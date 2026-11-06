@@ -54,6 +54,11 @@
   margin: 1rem 0 0;
   color: #555;
 }
+.high-five__count {
+  margin: .25rem 0 0;
+  color: #666;
+  font-size: 1.3rem;
+}
 .high-five__burst {
   position: absolute;
   bottom: 3.5rem;

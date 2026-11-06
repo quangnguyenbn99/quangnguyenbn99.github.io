@@ -1,12 +1,35 @@
 (function () {
+  var INITIAL_HIGH_FIVES = 105;
+  var STORAGE_KEY = 'high-five-count';
+
   function initializeHighFive() {
     var button = document.getElementById('high-five-button');
     var status = document.getElementById('high-five-status');
+    var countDisplay = document.getElementById('high-five-count');
     var bursts = document.getElementById('high-five-bursts');
 
-    if (!button || !status || !bursts) return;
+    if (!button || !status || !countDisplay || !bursts) return;
+
+    var count = INITIAL_HIGH_FIVES;
+    try {
+      var savedCount = Number(window.localStorage.getItem(STORAGE_KEY));
+      if (Number.isFinite(savedCount) && savedCount >= INITIAL_HIGH_FIVES) {
+        count = savedCount;
+      }
+    } catch (error) {
+      // The counter still works for this page view if storage is unavailable.
+    }
+    countDisplay.textContent = count;
 
     button.addEventListener('click', function () {
+      count += 1;
+      countDisplay.textContent = count;
+      try {
+        window.localStorage.setItem(STORAGE_KEY, count);
+      } catch (error) {
+        // Keep the updated count visible even if storage is unavailable.
+      }
+
       button.classList.remove('is-celebrating');
       // Restart the hand animation when the button is clicked repeatedly.
       void button.offsetWidth;
